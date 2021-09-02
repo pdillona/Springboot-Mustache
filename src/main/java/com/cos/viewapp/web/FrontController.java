@@ -33,6 +33,7 @@ public class FrontController {
     	 List<Board> boards = new ArrayList<>();
     	 boards.add(new Board(1,"제목1"));
     	 boards.add(new Board(2,"제목2"));
+    	 boards.add(new Board(3,"git실험"));
     	 
     	 
     	 model.addAttribute("boards", boards);
